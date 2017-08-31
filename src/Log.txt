@@ -1,0 +1,51 @@
+Fecha y hora de ejecucion: Thu Aug 31 13:41:25 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:08 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: findMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:08 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:08 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:09 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: eliminarVendedor
+Fecha y hora de ejecucion: Thu Aug 31 13:43:09 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: nuevoVendedor
+Fecha y hora de ejecucion: Thu Aug 31 13:43:09 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: findVendedor
+Fecha y hora de ejecucion: Thu Aug 31 13:43:10 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:13 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:50 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:50 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: findMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:50 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:51 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: nuevoVendedor
+Fecha y hora de ejecucion: Thu Aug 31 13:43:51 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: eliminarVendedor
+Fecha y hora de ejecucion: Thu Aug 31 13:43:51 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: findVendedor
+Fecha y hora de ejecucion: Thu Aug 31 13:43:52 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Thu Aug 31 13:43:54 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble

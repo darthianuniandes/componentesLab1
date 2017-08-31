@@ -11,6 +11,9 @@
 package anotaciones;
 
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -73,8 +76,13 @@ public class CodigoInserciones
         Date hoy = new Date();
         Calendar calHoy = Calendar.getInstance();
         calHoy.setTime(hoy);
-        System.out.println("Fecha y hora de ejecucion: " + calHoy.getTime());
-        System.out.println("Clase invocada: " + claseRepresentada.getName());
-        System.out.println("Metodo utilizado: " + method.getName());
+        
+        File source = new File("./src/" + "Log.txt");
+        PrintWriter pw=null;
+        pw = new PrintWriter(new FileWriter(source, true));
+        pw.println("Fecha y hora de ejecucion: " + calHoy.getTime());
+        pw.println("Clase invocada: " + claseRepresentada.getName());
+        pw.println("Metodo utilizado: " + method.getName());
+        pw.close();
     }
 }
