@@ -11,6 +11,7 @@
 package mundo;
 
 import anotaciones.Init;
+import anotaciones.NoInit;
 import anotaciones.PostConstructor;
 
 /**
@@ -23,6 +24,7 @@ public class Vendedor
     /**
      * Id del vendedor. Tiene que ser único.
      */
+    @NoInit
     private int id;
 
     /**
@@ -42,7 +44,7 @@ public class Vendedor
 
     @PostConstructor
     public void postConstruct() {
-        System.out.println("Se ha creado un nuevo vendedo");
+        System.out.println("Se ha creado un nuevo vendedor");
     }
     
     public String getApellidos() {
