@@ -188,7 +188,7 @@ public class Driver
                     error = new BufferedReader(new InputStreamReader(b.getInputStream()));
                     for(String h;(h=error.readLine())!=null;)System.out.println(h);
                     
-//                    source.delete();
+                    source.delete();
                     
                     // Se carga el proxy
                     Class ret =  Class.forName(paquete+"." + objetivo.getSimpleName() + "Proxy");
@@ -202,7 +202,7 @@ public class Driver
                     }
                 }else{
                     // Si el objetivo no tiene inyecciones no se usa proxy
-//                    source.delete();
+                    source.delete();
                     proxys.put(objetivo, objetivo);
                     return objetivo;
                 }
@@ -217,7 +217,7 @@ public class Driver
             // Si ocurre alguna excepción se elimina el proxy y se utiliza al objetivo como su propio
             // proxy
             if(pw!=null) pw.close();
-//            source.delete();
+            source.delete();
         }
         proxys.put(objetivo, objetivo);
         return objetivo;
@@ -236,9 +236,9 @@ public class Driver
                 for (int i = 0; i < implementacion.getInterfaces().length; i++) {
                     if(implementacion.getInterfaces()[i].isAnnotationPresent(RequestHTTPAceptados.class)){
                         boolean respuesta = CodigoInserciones.RequestHTTPAceptados(implementacion, HTTPrequest.GET);
-                        if(!respuesta){
-                            return null;
-                        }
+//                        if(!respuesta){
+//                            return null;
+//                        }
                     }
                 } 
             }

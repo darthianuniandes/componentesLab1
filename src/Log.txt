@@ -552,3 +552,75 @@ Metodo utilizado: eliminarVendedor
 Fecha y hora de ejecucion: Fri Sep 01 21:14:53 COT 2017
 Clase invocada: mundo.ManejadorVendedores
 Metodo utilizado: findVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:23 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: findMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:23 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:23 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:23 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: nuevoVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:23 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: eliminarVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:23 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: findVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:32 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:33 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:33 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: findMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:33 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: eliminarVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:33 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: nuevoVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:33 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: findVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:51 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: findMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:51 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:51 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:07:52 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: nuevoVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:52 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: eliminarVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:07:52 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: findVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:08:02 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: nuevoMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:08:02 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: eliminarMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:08:02 COT 2017
+Clase invocada: mundo.ManejadorMuebles
+Metodo utilizado: findMueble
+Fecha y hora de ejecucion: Fri Sep 01 23:08:02 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: nuevoVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:08:02 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: eliminarVendedor
+Fecha y hora de ejecucion: Fri Sep 01 23:08:02 COT 2017
+Clase invocada: mundo.ManejadorVendedores
+Metodo utilizado: findVendedor
