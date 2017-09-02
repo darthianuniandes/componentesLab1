@@ -12,10 +12,10 @@ import java.lang.annotation.Target;
 
 /**
  *
- * @author Asesoftware
+ * @author ian
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target(value={ElementType.ANNOTATION_TYPE, ElementType.METHOD})
-public @interface Log {
+@Target(value={ElementType.CONSTRUCTOR, ElementType.FIELD})
+public @interface NoInit {
     
 }

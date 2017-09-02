@@ -11,6 +11,7 @@
 
 package mundo;
 import anotaciones.Init;
+import anotaciones.NoInit;
 import anotaciones.PostConstructor;
 import interfaces.Actualizable;
 import interfaces.Obtenible;
@@ -29,6 +30,7 @@ public class Mueble implements Actualizable, Obtenible{
     /**
      * Identificador del mueble, tiene que ser único
      */
+    @NoInit
     private int id;
 
     /**

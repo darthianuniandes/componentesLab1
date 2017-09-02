@@ -252,7 +252,9 @@ public class Driver
             // Se verifica si la clase tiene la anotación Init
             if(c.isAnnotationPresent(Init.class)){
                 // Se inicializan los atributos afectador por las anotaciones Init
-                CodigoInserciones.Init(objeto,c,c.getAnnotation(Init.class),null);
+                if(!c.isAnnotationPresent(NoInit.class)) {
+                    CodigoInserciones.Init(objeto,c,c.getAnnotation(Init.class),null);
+                }
             }
             
             for (Field f : c.getDeclaredFields()) {
