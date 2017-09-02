@@ -12,13 +12,13 @@ package mundo;
 
 import anotaciones.Init;
 import anotaciones.PostConstructor;
+import interfaces.Actualizable;
 
 /**
  * Entidad que representa a un vendedor de MLA
  */
 @Init(String="-- Vacio --")
-public class Vendedor
-{
+public class Vendedor implements Actualizable{
 
     /**
      * Id del vendedor. Tiene que ser único.

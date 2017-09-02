@@ -19,6 +19,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Calendar;
 import java.util.Date;
+import anotaciones.RequestHTTPAceptados.HTTPrequest;
 
 
 /**
@@ -84,5 +85,23 @@ public class CodigoInserciones
         pw.println("Clase invocada: " + claseRepresentada.getName());
         pw.println("Metodo utilizado: " + method.getName());
         pw.close();
+    }
+    
+    public static boolean RequestHTTPAceptados(Class claseRepresentada, HTTPrequest requestOrigen) throws Exception {
+        boolean valido = false;
+        for (int i = 0; i < claseRepresentada.getInterfaces().length; i++) {
+            RequestHTTPAceptados anotacion = (RequestHTTPAceptados) claseRepresentada.getInterfaces()[i].getAnnotation(RequestHTTPAceptados.class);
+            for (int j = 0; j < anotacion.requests().length; j++) {
+                if(requestOrigen == anotacion.requests()[j]){
+                    valido = true;
+                    break;
+                }
+            }
+        }
+            
+        if(valido == false){
+            System.out.println("Este tipo de request no esta soportado por la clase");
+        }
+        return valido;
     }
 }

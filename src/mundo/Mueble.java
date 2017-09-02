@@ -12,12 +12,14 @@
 package mundo;
 import anotaciones.Init;
 import anotaciones.PostConstructor;
+import interfaces.Actualizable;
+import interfaces.Obtenible;
 
 /**
  * Entidad que representa un mueble de MLA
  */
 @Init(String="",Double=0)
-public class Mueble {
+public class Mueble implements Actualizable, Obtenible{
 
     /**
      * Nombre del mueble
@@ -70,5 +72,5 @@ public class Mueble {
     public void reiniciar(){
 
     }
-    
+
 }
